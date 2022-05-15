@@ -1,7 +1,8 @@
-# Native Chats Website
+# Ruby
 
-project uses `yarn` for package management, , `eslint`, `prettier`, `stylelint` for code styling and linting, `react emotion` for styling components, `next-i18next` for internationalization and `jest` for testing. There is also `storybook`.
-To install run:
+project uses `yarn` for package management, , `eslint`, `prettier`, `stylelint` for code styling and
+linting, `react emotion` for styling components, `next-i18next` for internationalization and `jest` for testing. There
+is also `storybook`. To install run:
 
 ```
 yarn
@@ -53,10 +54,4 @@ to check types and lint run
 
 ```
 yarn lint:ts
-```
-
-to run tests run
-
-```
-yarn test
 ```
