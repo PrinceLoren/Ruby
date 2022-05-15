@@ -1,8 +1,7 @@
 # Ruby
 
 project uses `yarn` for package management, , `eslint`, `prettier`, `stylelint` for code styling and
-linting, `react emotion` for styling components, `next-i18next` for internationalization and `jest` for testing. There
-is also `storybook`. To install run:
+linting, `react emotion` for styling components, `next-i18next` for internationalization. To install run:
 
 ```
 yarn
@@ -22,12 +21,6 @@ to build run
 
 ```
 yarn build
-```
-
-to run storybook locally on port 3003 run
-
-```
-yarn storybook
 ```
 
 ### Code tools
