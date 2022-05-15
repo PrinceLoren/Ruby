@@ -1,0 +1,32 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "@linters/eslint-config",
+    "@linters/eslint-config-jest",
+    "@linters/eslint-config-react",
+    "@linters/eslint-config-storybook",
+    "@linters/eslint-config-typescript",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "eslintimport/order": 0,
+    "id-length": 0,
+    "react/require-default-props": 0,
+    "import/order": 0
+  }
+}

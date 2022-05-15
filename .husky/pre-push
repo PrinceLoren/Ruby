@@ -1,0 +1,9 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "husky: Running lint:css"
+yarn lint:css
+echo "husky: Running lint:ts"
+yarn lint:ts
+echo "husky: Running test"
+yarn test

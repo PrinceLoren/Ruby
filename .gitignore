@@ -1,0 +1,8 @@
+# files
+**/.DS_Store
+
+#folders
+/.next
+.idea/
+/node_modules/
+
